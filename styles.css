@@ -1,0 +1,33 @@
+/* colors : -
+
+#52ab98
+#2b6777;
+#c8d8e4;
+*/
+
+/* fonts :-
+
+'Exo', sans-serif;
+'Pacifico', cursive;
+*/
+
+body {
+    background-color: #52ab98;
+}
+
+.header {
+    color: #2b6777;
+    font-family: 'Pacifico', cursive; 
+}
+
+.navOptions {
+    color: #2b6777;
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width:992px) {
+    .navList {
+        position: relative;
+        left: 72%;
+    }
+}
