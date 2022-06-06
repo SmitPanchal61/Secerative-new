@@ -13,6 +13,8 @@
 
 body {
     background-color: #52ab98;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
 }
 
 .header {
@@ -22,7 +24,8 @@ body {
 
 .navOptions {
     color: #2b6777;
-    font-size: 1.2rem;
+    font-size: 1.12rem;
+    font-family: 'Exo', sans-serif;
 }
 
 @media only screen and (min-width:992px) {
@@ -30,4 +33,25 @@ body {
         position: relative;
         left: 72%;
     }
+}
+
+textarea {
+    resize: none;
+    margin: 2% 0%;
+}
+
+@media only screen and (max-width:992px) {
+    textarea {
+        width: 100%;
+        padding: 4%;
+    }
+}
+
+h4 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.main {
+    padding: 20px;
 }
