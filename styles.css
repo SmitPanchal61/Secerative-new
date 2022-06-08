@@ -12,20 +12,22 @@
 */
 
 body {
-    background-color: #52ab98;
-    color: #fff;
+    background-color: #c8d8e4;
+    color: #2b6777;
     font-family: 'Exo', sans-serif;
 }
 
 .header {
     color: #2b6777;
-    font-family: 'Pacifico', cursive; 
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem !important; 
 }
 
 .navOptions {
     color: #2b6777;
     font-size: 1.12rem;
     font-family: 'Exo', sans-serif;
+    font-weight: bold;
 }
 
 @media only screen and (min-width:992px) {
@@ -38,6 +40,8 @@ body {
 textarea {
     resize: none;
     margin: 2% 0%;
+    border: 2px solid #2b6777;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width:992px) {
@@ -54,4 +58,43 @@ h4 {
 
 .main {
     padding: 20px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+}
+
+p {
+    line-height: 2;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+button {
+    border: 2px solid #2b6777;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: #2b6777;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: #52ab98;
+    color: white;
+    border-color: white;
+}
+
+.footer-para {
+    margin-left: 4%;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
 }
